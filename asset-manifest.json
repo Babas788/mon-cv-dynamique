@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mon-cv-dynamique/static/css/main.03b0a2bc.css",
+    "main.js": "/mon-cv-dynamique/static/js/main.77d85559.js",
+    "static/media/github.png": "/mon-cv-dynamique/static/media/github.f55acd9dbcfdf56961eb.png",
+    "index.html": "/mon-cv-dynamique/index.html",
+    "static/media/collapseUp.svg": "/mon-cv-dynamique/static/media/collapseUp.7d0227bb05c8ea08906b480111b1e2f1.svg",
+    "static/media/collapseDown.svg": "/mon-cv-dynamique/static/media/collapseDown.bc566b4d25e1d70f159dea357d77e976.svg",
+    "main.03b0a2bc.css.map": "/mon-cv-dynamique/static/css/main.03b0a2bc.css.map",
+    "main.77d85559.js.map": "/mon-cv-dynamique/static/js/main.77d85559.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03b0a2bc.css",
+    "static/js/main.77d85559.js"
+  ]
+}
