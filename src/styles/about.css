@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+.about_home {
+  background-color: #1f2e71;
+  position: relative;
+}
+
+.projet {
+  width: 100%;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background-color: #333232;
+}
+
+.about_text {
+  position: absolute;
+  top: 4%;
+  text-align: center;
+}
+
+.about_text_detail {
+  color: #bec0c0;
+}
+
+.about_text_title {
+  font-family: "Caveat", cursive;
+  font-size: 27px;
+  color: #cfd0d0;
+}
+
+@media screen and (min-width: 792px) {
+  .about_text {
+    margin: 100px 150px 100px 150px;
+  }
+  .about_text_detail {
+    font-size: 17px;
+  }
+  .about_text_title {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=about.css.map */

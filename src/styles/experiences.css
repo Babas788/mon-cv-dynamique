@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+.xp {
+  background-color: #333232;
+  display: flex;
+  flex-direction: column;
+}
+
+.xp_precedentes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.pitch {
+  font-size: 22px;
+  width: 80%;
+  color: #cfd0d0;
+  font-family: "Caveat", cursive;
+}
+
+@media screen and (min-width: 792px) {
+  .pitch {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=experiences.css.map */

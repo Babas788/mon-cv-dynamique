@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+.home_job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.article_job {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.job {
+  border-radius: 10px;
+  background-color: #1f2e71;
+  text-decoration: none;
+}
+
+.picture_job {
+  width: 100%;
+  height: 145px;
+  border-radius: 10px 10px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  color: #cfd0d0;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 792px) {
+  .home_job {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  .article_job {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .picture_job {
+    height: 300px;
+  }
+}/*# sourceMappingURL=jobs.css.map */

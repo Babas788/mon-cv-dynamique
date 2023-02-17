@@ -1,0 +1,31 @@
+.home_job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.article_job {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.job {
+  border-radius: 10px;
+  background-color: rgba(49, 49, 134, 0.863);
+  text-decoration: none;
+}
+
+.picture_job {
+  width: 100%;
+  height: 145px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=job.css.map */

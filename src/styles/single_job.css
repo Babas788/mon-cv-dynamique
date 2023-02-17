@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+.metier {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333232;
+}
+
+.metier_renseignement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #cfd0d0;
+}
+
+.competences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #cfd0d0;
+}
+
+.photo_du_metier {
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.metier_title {
+  font-family: "Caveat", cursive;
+  color: #cfd0d0;
+}
+
+.resumer {
+  text-align: center;
+  color: #cfd0d0;
+}
+
+@media screen and (min-width: 792px) {
+  .metier_renseignement {
+    width: 85%;
+  }
+  .competences {
+    width: 100%;
+  }
+  .photo_du_metier {
+    height: 450px;
+    width: 85%;
+    margin-top: 50px;
+  }
+  .resumer {
+    width: 85%;
+  }
+}/*# sourceMappingURL=single_job.css.map */
